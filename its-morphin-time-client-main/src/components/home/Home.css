@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Jockey+One&display=swap");
+
+/* General Body Styles */
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('https://wallpapercave.com/wp/wp9985518.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Home Container */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+  background-image: url('https://wallpapercave.com/wp/wp9985518.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Welcome Content Box */
+.welcome-content {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content h1 {
+  color: #e53935; /* Classic Power Rangers red */
+  margin-bottom: 20px;
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+}
+
+.welcome-content p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.search-bar button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #f9a825; /* Yellow/Gold accent */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button[type="submit"]:hover {
+  background-color: #f48c06;
+}
+
+/* Search Results Container */
+.search-results {
+  display: flex;
+  flex-direction: column; /* Stack header and cards vertically */
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+}
+
+.search-results > h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Cards Container for Search Results */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space cards horizontally */
+  gap: 20px;
+  width: 100%;
+}
+
+/* Individual Card Styling */
+.cards-container > div {
+  flex: 1 1 calc(33% - 20px);  /* Roughly three cards per row */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Header */
+.cards-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #e53935;
+  text-align: center;
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+}
+
+/* Reset List Styling Inside Cards */
+.cards-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cards-container li {
+  margin-bottom: 8px;
+  font-family: "Jockey One", sans-serif;
+}
+
+/* Link Styling in Cards */
+.cards-container a {
+  color: #646CFF;
+  text-decoration: none;
+}
+
+.cards-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments: Stack Cards on Smaller Screens */
+@media screen and (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cards-container > div {
+    flex: 1 1 100%;
+  }
+}

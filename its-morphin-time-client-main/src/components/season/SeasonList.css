@@ -1,0 +1,54 @@
+/* src/components/megazord/MegazordPage.css */
+.season-list-container {
+  padding: 70px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+
+.season-list-container a {
+  text-decoration: none;
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+
+.season-list-container h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+ font-size: 50px;
+}
+
+.season-list-container p {
+  text-align: center;
+}
+
+.season-list {
+  list-style: none;
+  padding: 0;
+}
+
+.season-list {
+  margin-bottom: 15px;
+}
+
+.season-list a {
+  text-decoration: none;
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+
+.season-list a:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  padding: 10px;
+  border-radius: 15px;
+}

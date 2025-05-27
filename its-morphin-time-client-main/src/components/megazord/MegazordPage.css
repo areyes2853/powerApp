@@ -1,0 +1,52 @@
+/* src/components/megazord/MegazordPage.css */
+.megazords-page-container {
+  padding: 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 80px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.megazords-page-container a {
+    text-decoration: none;
+    color: #ff9800;
+    font-size: 1.2rem;
+  
+}
+
+.megazords-page-container p {
+  text-align: center;
+}
+
+.megazords-list {
+  list-style: none;
+  padding: 0;
+}
+
+.megazord-item {
+  margin-bottom: 15px;
+}
+
+.megazord-item a {
+  text-decoration: none;
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+
+.megazord-item a:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  padding: 10px;
+  border-radius: 15px;
+}

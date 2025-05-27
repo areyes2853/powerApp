@@ -1,0 +1,94 @@
+/* Container for the megazord detail page */
+.megazord-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjust as needed */
+    font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .megazord-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .megazord-info h1 {
+    color: #ff9800; /* Orange color */
+    margin-bottom: 20px;
+  }
+  
+  .megazord-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .megazord-info p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 10px;
+  }
+  
+  .megazord-info strong {
+    font-weight: bold;
+    color: #f57c00; /* Darker orange */
+  }
+
+.megazord-info {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+}
+
+/* Header styling */
+.megazord-info h1 {
+  color: #ff9800;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.megazord-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  /* Optionally uncomment below for object-fit behavior */
+  /* object-fit: cover; */
+}
+
+/* Paragraph text styling */
+.megazord-info p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+/* Bold text in paragraphs */
+.megazord-info strong {
+  font-weight: bold;
+  color: #f57c00;
+}
+
+/* Link styling */
+.megazord-info a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.megazord-info a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}

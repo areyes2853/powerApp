@@ -1,0 +1,63 @@
+/* CharactersPage.css */
+.characters-page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  /* background-color: #f7f7f7; */
+  /* Matching light background */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-size: cover;
+  text-align: center;
+}
+
+.characters-page-container h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+ font-size: 50px;
+}
+
+.characters-page-container a {
+  text-decoration: none;
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+
+
+.characters-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.characters-list li {
+  /* background-color: #fff; */
+  /* border: 1px solid #ddd; */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 4px;
+  /* transition: background-color 0.2s ease, transform 0.2s ease; */
+  font-size: 30px;
+}
+
+/* .characters-list li:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+} */
+
+.characters-list a {
+  text-decoration: none;
+  color: #ff9800;
+  font-size: 1.2rem;
+}
+
+.characters-list a:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  padding: 10px;
+  border-radius: 15px;
+}

@@ -1,0 +1,145 @@
+/* CharacterDetail.css */
+.character-detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f7f7f7; /* Light background for clear contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.character-detail-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.character-detail-container p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.character-detail-container strong {
+  font-weight: bold;
+  color: #222;
+}
+
+.character-detail-container a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.character-detail-container a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+/* Container for the character detail page */
+.character-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* Adjust as needed */
+  font-family: "Goldman", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.character-info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f7f7f7; /* Light background for clear contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+}
+
+.character-info h1 {
+  color: #ff9800; /* Orange color */
+  margin-bottom: 20px;
+}
+
+.character-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.character-info p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.character-info strong {
+  font-weight: bold;
+  color: #f57c00; /* Darker orange */
+}
+
+.character-info {
+background-color: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 800px;
+}
+
+/* Header styling */
+.character-info h1 {
+color: #ff9800;
+margin-bottom: 20px;
+}
+
+/* Image styling */
+.character-image {
+max-width: 300px;
+height: auto;
+margin-bottom: 10px;
+border-radius: 4px;
+/* Optionally uncomment below for object-fit behavior */
+/* object-fit: cover; */
+}
+
+/* Paragraph text styling */
+.character-info p {
+color: #666;
+line-height: 1.7;
+margin-bottom: 10px;
+}
+
+/* Bold text in paragraphs */
+.character-info strong {
+font-weight: bold;
+color: #f57c00;
+}
+
+/* Link styling */
+.character-info a {
+color: #337ab7;
+text-decoration: none;
+}
+
+.character-info a:hover {
+text-decoration: underline;
+}
+
+li {
+list-style: none;
+}
